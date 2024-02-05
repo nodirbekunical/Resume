@@ -1,0 +1,83 @@
+.list:nth-child(1) .item {
+   animation-name: wiggleWiggle;
+   animation-duration: 1.25s;
+   animation-direction: alternate;
+   animation-timing-function: steps(2, end);
+   animation-iteration-count: infinite;
+   z-index: -1;
+}
+
+#N {
+   animation-delay: 0s;
+}
+
+#O {
+   animation-delay: 0.1s;
+}
+
+#D {
+   animation-delay: 0.15s;
+}
+
+#I {
+   animation-delay: 0.2s;
+}
+
+#R {
+   animation-delay: 0.25s;
+}
+
+#B {
+   animation-delay: 0.3s;
+}
+
+#E {
+   animation-delay: 0.35s;
+}
+
+#K {
+   animation-delay: 0.4s;
+}
+
+#DOT {
+   animation-delay: 0.45s;
+}
+
+/* transform: translateY(10px); */
+@keyframes wiggleWiggle {
+   20%,
+   100% {
+      transform: translate(0, 10px);
+   }
+   
+   0% {
+      transform: translate(0, 0px);
+   }
+   10% {
+      transform: translate(0, 10px);
+   }
+}
+
+.dev {
+   font-weight: 700;
+   text-transform: uppercase;
+   background: linear-gradient(90deg, rgb(20, 20, 20), #fff, rgb(20, 20, 20));
+   letter-spacing: 5px;
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-repeat: no-repeat;
+   background-size: 80%;
+   animation: shine 5s linear infinite;
+   position: relative;
+   z-index: -1;
+}
+
+@keyframes shine {
+   0% {
+      background-position-x: -500%;
+   }
+   100% {
+      background-position-x: 500%;
+   }
+}

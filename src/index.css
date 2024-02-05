@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('./Assets/Fonts/montserrat-v25-latin-regular.woff2') format('woff2'), 
+  url('./Assets/Fonts/montserrat-v25-latin-regular.woff') format('woff');
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+  url('./Assets/Fonts/montserrat-v25-latin-500.woff2') format('woff2'), 
+  url('./Assets/Fonts/montserrat-v25-latin-500.woff') format('woff');
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+  url('./Assets/Fonts/montserrat-v25-latin-600.woff2') format('woff2'), 
+  url('./Assets/Fonts/montserrat-v25-latin-600.woff') format('woff');
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+  url('./Assets/Fonts/montserrat-v25-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('./Assets/Fonts/montserrat-v25-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* raleway-200 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./Assets/Fonts/raleway-v28-latin-200.woff2') format('woff2'),
+  url('./Assets/Fonts/raleway-v28-latin-200.woff') format('woff'); 
+}
+/* raleway-300italic - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  src: url('./Assets/Fonts/raleway-v28-latin-300italic.woff2') format('woff2'),
+  url('./Assets/Fonts/raleway-v28-latin-300italic.woff') format('woff'); 
+}
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Assets/Fonts/raleway-v28-latin-regular.woff2') format('woff2'),
+  url('./Assets/Fonts/raleway-v28-latin-regular.woff') format('woff'); 
+}
+/* raleway-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./Assets/Fonts/raleway-v28-latin-500.woff2') format('woff2'),
+  url('./Assets/Fonts/raleway-v28-latin-500.woff') format('woff'); 
+}
+/* raleway-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./Assets/Fonts/raleway-v28-latin-600.woff2') format('woff2'),
+  url('./Assets/Fonts/raleway-v28-latin-600.woff') format('woff'); 
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  background-color: #0a192f;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.container {
+  max-width: 1040px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.nav-hidden {
+  transform: translateY(calc(-1 * 72px));
+}
+
+.nav_link{
+  position: relative; 
+  padding: 10px 0;
+}
+
+.nav_link::before{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0.5px;
+  background-color: #64ffda;
+  left: 50%;
+  bottom: 0;
+  transition: all .3s ease;
+}
+
+.nav_link::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0.5px;
+  background-color: #64ffda;
+  right: 50%;
+  bottom: 0;
+  transition: all .3s ease;
+}
+
+.nav_item:hover > .nav_link::before{
+  width: 50%;
+}
+
+.nav_item:hover > .nav_link::after{
+  width: 50%;
+}
+
+/* --- Scrol Styles --- */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0a192f; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bababa; 
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.list {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
