@@ -12,6 +12,8 @@ import Resume from "../../Assets/pdf/resume.pdf";
 import { useContext } from "react";
 import { Context } from "../../Context/ModalContext";
 
+import Me from "../../Assets/Images/me.png";
+
 function Header() {
   const [showModal, setShowModal] = useState(false);
 
@@ -26,12 +28,11 @@ function Header() {
     >
       <div className="container">
         <nav className="flex items-center justify-between py-3 sm:py-4">
-          <a
-            className="font-sans flex items-center justify-center font-semibold text-base text-[#64ffda] border-2 border-dashed border-[#64ffda] hover:bg-[rgba(100,255,218,0.1)] rounded-full w-8 sm:w-10 h-8 sm:h-10 duration-200"
-            href="/"
-          >
-            N
-          </a>
+          <img
+            className="h-[40px] w-[40px] rounded-full z-50"
+            src={Me}
+            alt="front-img"
+          />
           <div className="hidden sm:flex items-center">
             <ul className="flex items-center space-x-6">
               <li className="nav_item text-sm px-2 py-1 group">
