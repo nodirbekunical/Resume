@@ -73,7 +73,7 @@ function Experience() {
   // };
 
   return (
-    <section id="experience" className="py-[40px] sm:py-[60px]">
+    <section id="experience" className="pt-[80px] sm:pt-[120px]">
       <div className="container">
         <h2 className="flex items-center justify-center text-xl sm:text-2xl text-white">
           <span className="inline-block w-14 sm:w-40 h-[1px] bg-[rgba(100,255,218,0.1)] rounded-full mr-5"></span>{" "}
@@ -154,21 +154,25 @@ function Experience() {
                       <li className="flex items-start">
                         <BiCaretRight className="w-4 h-4 text-[#64ffda] mt-1 mr-2" />
                         <span className="inline-block max-w-[500px] w-full text-[#8892b0]">
-                          Work with a variety of different languages
+                          I worked with lots of project which was for well-known
+                          companies in Uzbekistan such as JETOUR. While working
+                          with team, I gained very valuable skills that help me
+                          to built gid project.
                         </span>
                       </li>
                       <li className="flex items-start">
                         <BiCaretRight className="w-4 h-4 text-[#64ffda] mt-1 mr-2" />
                         <span className="inline-block max-w-[500px] w-full text-[#8892b0]">
-                          Write modern, performant, maintainable code for a
-                          diverse array of client and internal projects
+                          while coding, I gave attention every code I wrote to
+                          be accurate and not make problem. This progress was
+                          the one of the factor that was thr way to succeed.
                         </span>
                       </li>
                       <li className="flex items-start">
                         <BiCaretRight className="w-4 h-4 text-[#64ffda] mt-1 mr-2" />
                         <span className="inline-block max-w-[500px] w-full text-[#8892b0]">
                           I learned how to work effectively with a team on
-                          Github
+                          Github as well.
                         </span>
                       </li>
                     </ul>
@@ -191,24 +195,29 @@ function Experience() {
                       <li className="flex items-start">
                         <BiCaretRight className="w-4 h-4 text-[#64ffda] mt-1 mr-2" />
                         <span className="inline-block max-w-[500px] w-full text-[#8892b0]">
-                          Work with a variety of different languages, platforms
-                          and frameworks management systems such as JavaScript
-                          (ES6+), TypeScript, React Js, React-router-dom,
-                          Tailwind Css, Redux Github, Gitlab and Netlify
+                          Worked with a variety of different languages,
+                          platforms and frameworks management systems such as
+                          JavaScript (ES6+), TypeScript, React Js,
+                          React-router-dom, Tailwind Css, Redux Github, Gitlab
+                          and Netlify
                         </span>
                       </li>
                       <li className="flex items-start">
                         <BiCaretRight className="w-4 h-4 text-[#64ffda] mt-1 mr-2" />
                         <span className="inline-block max-w-[500px] w-full text-[#8892b0]">
-                          Write modern, performant, maintainable code for a
-                          diverse array of client and internal projects
+                          This company gave me first change to join a team and
+                          taught me how to increase my level. I attempted a lot
+                          of meetings the company held to encourage their
+                          employees and every meeting had unexpected gifts that
+                          was for hard working peopleю
                         </span>
                       </li>
                       <li className="flex items-start">
                         <BiCaretRight className="w-4 h-4 text-[#64ffda] mt-1 mr-2" />
                         <span className="inline-block max-w-[500px] w-full text-[#8892b0]">
-                          I learned how to work effectively with a team on
-                          Github
+                          I had a team which made of 5 people. We were so close
+                          toeach other and that is why finding a solutions for
+                          problems was not such difficult.
                         </span>
                       </li>
                     </ul>
@@ -269,6 +278,17 @@ function Experience() {
                       <li className="flex items-start">
                         <BiCaretRight className="w-4 h-4 text-[#64ffda] mt-1 mr-2" />
                         <span className="inline-block max-w-[500px] w-full text-[#8892b0]">
+                          We are alse working on one project which is for
+                          Education systems. The initiation of a new IT project
+                          focusing on managing students at school. This system
+                          will involve scoring in classes and monitoring
+                          attendance. We believe this innovation could bring a
+                          positive change to the school environment.
+                        </span>
+                      </li>
+                      <li className="flex items-start">
+                        <BiCaretRight className="w-4 h-4 text-[#64ffda] mt-1 mr-2" />
+                        <span className="inline-block max-w-[500px] w-full text-[#8892b0]">
                           Codebridge School is non-profit organization dedicated
                           to providing free Coding and English language
                           education to local children. Our mission is to empower
@@ -316,7 +336,8 @@ function Experience() {
                       <li className="flex items-start">
                         <BiCaretRight className="w-4 h-4 text-[#64ffda] mt-1 mr-2" />
                         <span className="inline-block max-w-[500px] w-full text-[#8892b0]">
-                          Working with a team from a distance
+                          Working with a team from a distance was the main
+                          advantage for my IT skills.
                         </span>
                       </li>
                     </ul>

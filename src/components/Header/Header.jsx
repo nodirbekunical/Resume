@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { BiUser } from "react-icons/bi";
 import { TbDownload } from "react-icons/tb";
 import { TfiGallery } from "react-icons/tfi";
@@ -13,7 +13,6 @@ import { useContext } from "react";
 import { Context } from "../../Context/ModalContext";
 
 function Header() {
-  const [scrollDown, setScrollDown] = useState("");
   const [showModal, setShowModal] = useState(false);
 
   // ------> Context
@@ -21,26 +20,9 @@ function Header() {
   // eslint-disable-next-line no-unused-vars
   const { show, setShow } = ctx;
 
-  let lastScrollY = window.scrollY;
-  window.addEventListener("scroll", () => {
-    if (lastScrollY < window.scrollY) {
-      setScrollDown("nav-hidden");
-    } else {
-      setScrollDown("");
-    }
-  });
-
-  useEffect(() => {
-    if (showModal) {
-      document.body.style.overflowY = "hidden";
-    } else {
-      document.body.style.overflowY = "scroll";
-    }
-  }, [showModal]);
-
   return (
     <header
-      className={`${scrollDown} bg-[#0a192f] fixed top-0 z-50 w-full h-fit duration-500 border-b border-b-[rgba(100,255,218,0.1)] shadow-header_shadow`}
+      className={`bg-[#0a192f] fixed top-0 z-50 w-full h-fit duration-500 border-b border-b-[rgba(100,255,218,0.1)] shadow-header_shadow`}
     >
       <div className="container">
         <nav className="flex items-center justify-between py-3 sm:py-4">

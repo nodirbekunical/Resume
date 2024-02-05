@@ -2,7 +2,6 @@ import React from "react";
 import { BsTelephoneOutbound } from "react-icons/bs";
 
 // ------> Images
-import Front from "../../Assets/Images/dev.png";
 import Me from "../../Assets/Images/me.jpg";
 
 // ------> Css
@@ -12,12 +11,12 @@ function Hero() {
   return (
     <section
       id="home"
-      className="mt-12 sm:mt-[70px] pt-[100px] pb-[40px] sm:pt-[130px] sm:pb-[60px]"
+      className="mt-12 sm:mt-[70px] pt-[100px] sm:pt-[130px]"
     >
       <div className="container flex flex-wrap justify-center lg:flex lg:items-center lg:justify-between">
-        <div className="max-w-[500px] text-center lg:text-start">
-          <div className="flex justify-center sm:justify-start">
-            <h2 className="flex items-end font-semibold text-4xl sm:text-5xl text-white tracking-normal ">
+        <div className="max-w-[500px]">
+          <div className="flex justify-center lg:justify-start">
+            <h2 className="flex items-end font-semibold text-4xl sm:text-5xl text-white tracking-normal">
               Hi, I'm
               <ul id="enthusiasm" className="list flex items-center m-0 p-0">
                 <li id="N" className="item">
@@ -58,7 +57,7 @@ function Hero() {
             JavaScript, React Js, Next Js to deliver customer a great product.
             Knowing how to work on Github with a team and being responsible for
             every duties. Furthermore, although I'm self-employed for now, I am
-            going to set up my own company with many employees.
+            going to set up my own company with many employees. 
           </p>
           <a
             href="tel:+998970130322"
@@ -67,13 +66,13 @@ function Hero() {
             Contact Me <BsTelephoneOutbound className="ml-2 text-[#64ffda]" />
           </a>
         </div>
-        <div className="relative sm:ml-5 mt-14 sm:mt-0 ">
+        <div className="relative sm:ml-5 mt-14 lg:mt-0 ">
           <img
             className="max-w-[300px] sm:max-w-[400px] w-full h-[300px] sm:h-[400px] rounded-full z-50"
             src={Me}
             alt="front-img"
           />
-          <span className="absolute w-[340px] sm:w-[440px] h-[340px] sm:h-[440px] rounded-full bg-[#b0afaf] blur-lg sm:blur-2xl -right-[20px] -top-[20px] -z-10"></span>
+          <span className="absolute w-[320px] sm:w-[440px] h-[320px] sm:h-[440px] rounded-full bg-[#b0afaf] blur-lg sm:blur-2xl -right-[10px] sm:-right-[20px] -top-[10px] sm:-top-[20px] -z-10"></span>
         </div>
       </div>
     </section>
