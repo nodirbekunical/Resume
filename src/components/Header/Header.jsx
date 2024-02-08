@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BiUser } from "react-icons/bi";
 import { TbDownload } from "react-icons/tb";
 import { TfiGallery } from "react-icons/tfi";
-import { AiOutlineHome } from "react-icons/ai";
+import { GiSkills } from "react-icons/gi";
 import { MdWorkOutline } from "react-icons/md";
 import { TbBrandTelegram } from "react-icons/tb";
 import Modal from "../Modal/Modal";
@@ -37,10 +37,18 @@ function Header() {
             <ul className="flex items-center space-x-6">
               <li className="nav_item text-sm px-2 py-1 group">
                 <a
-                  href="#about"
+                  href="#home"
                   className="nav_link text-white group-hover:text-[#64ffda] duration-150"
                 >
                   About
+                </a>
+              </li>
+              <li className="nav_item text-sm px-2 py-1 group">
+                <a
+                  href="#skills"
+                  className="nav_link text-white group-hover:text-[#64ffda] duration-150"
+                >
+                  Skills
                 </a>
               </li>
               <li className="nav_item text-sm px-2 py-1 group">
@@ -134,9 +142,9 @@ function Header() {
               className="flex flex-col items-center justify-center font-medium text-sm text-[#0a192f] hover:text-white duration-200 py-2"
             >
               <span className="block text-lg mb-[2px] sm:mr-2">
-                <AiOutlineHome />
+                <BiUser />
               </span>
-              Home
+              About
             </a>
           </li>
           <li
@@ -151,7 +159,7 @@ function Header() {
               className="flex flex-col items-center justify-center font-medium text-sm text-[#0a192f] hover:text-white duration-200 py-2"
             >
               <span className="block text-lg mb-[2px] sm:mr-2">
-                <BiUser />
+                <GiSkills />
               </span>
               Skills
             </a>
@@ -187,7 +195,7 @@ function Header() {
               <span className="block text-lg mb-[2px] sm:mr-2">
                 <TfiGallery />
               </span>
-              Portfolio
+              Projects
             </a>
           </li>
           <li

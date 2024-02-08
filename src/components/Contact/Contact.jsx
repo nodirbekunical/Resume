@@ -19,11 +19,14 @@ function Contact() {
       .post(
         `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${fullText}`
       )
-      .then(() => toast.success("Successfully sent!"))
+      .then((res) => {
+        toast.success("Successfully sent!");
+        if (res.status === 200) {
+          evt.target.reset();
+        }
+      })
       .catch(() => toast.error("It did not work."))
-      .finally(() => setFullName(""), setNumber());
-
-    evt.target.reset();
+      .finally(() => evt.target.reset());
   };
 
   return (
@@ -77,7 +80,7 @@ function Contact() {
               <input
                 className="shadow appearance-none border rounded w-full py-2 pl-14 pr-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-600"
                 id="password"
-                type="number"
+                type="text"
                 required
                 autoComplete="off"
                 onChange={(e) => setNumber(e.target.value.trim())}

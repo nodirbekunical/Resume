@@ -8,7 +8,7 @@ function Skills() {
       <div className="container">
         <h2 className="flex items-center justify-center text-xl sm:text-2xl text-white">
           <span className="inline-block w-14 sm:w-40 h-[1px] bg-[rgba(100,255,218,0.1)] rounded-full mr-5"></span>{" "}
-          Technologies
+          Skills
           <span className="inline-block ml-2">
             <GrTechnology className="text-lg sm:text-xl bg-white" />
           </span>
