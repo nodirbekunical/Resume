@@ -36,7 +36,7 @@ const data = [
 
 function Work() {
     return (
-        <section id="experience" className="pt-[80px] sm:pt-[120px]">
+        <section id="work" className="pt-[80px] sm:pt-[120px]">
             <div className="container">
                 <h2 className="flex items-center justify-center text-xl sm:text-2xl text-white">
                     <span className="inline-block w-14 sm:w-40 h-[1px] bg-[rgba(100,255,218,0.1)] rounded-full mr-5"></span>{" "}

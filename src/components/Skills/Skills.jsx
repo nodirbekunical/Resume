@@ -2,9 +2,9 @@ import React from "react";
 import { BiCaretRight } from "react-icons/bi";
 import { GrTechnology } from "react-icons/gr";
 
-function About() {
+function Skills() {
   return (
-    <section id="about" className="pt-[80px] sm:pt-[120px]">
+    <section id="skills" className="pt-[80px] sm:pt-[120px]">
       <div className="container">
         <h2 className="flex items-center justify-center text-xl sm:text-2xl text-white">
           <span className="inline-block w-14 sm:w-40 h-[1px] bg-[rgba(100,255,218,0.1)] rounded-full mr-5"></span>{" "}
@@ -65,4 +65,4 @@ function About() {
   );
 }
 
-export default About;
+export default Skills;

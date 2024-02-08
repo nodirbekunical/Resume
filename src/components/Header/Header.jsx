@@ -147,13 +147,13 @@ function Header() {
             className="border border-[#0a192f] hover:bg-[#0a192f] rounded-md w-full mx-auto duration-300"
           >
             <a
-              href="#about"
+              href="#skills"
               className="flex flex-col items-center justify-center font-medium text-sm text-[#0a192f] hover:text-white duration-200 py-2"
             >
               <span className="block text-lg mb-[2px] sm:mr-2">
                 <BiUser />
               </span>
-              About
+              Skills
             </a>
           </li>
           <li
@@ -198,7 +198,7 @@ function Header() {
             className="border border-[#0a192f] hover:bg-[#0a192f] rounded-md w-full mx-auto duration-300"
           >
             <a
-              href="contactme"
+              href="#contact"
               className="flex flex-col items-center justify-center font-medium text-sm text-[#0a192f] hover:text-white duration-200 py-2"
             >
               <span className="block text-lg mb-[2px] sm:mr-2">
