@@ -9,10 +9,7 @@ import "./hero.css";
 
 function Hero() {
   return (
-    <section
-      id="home"
-      className="mt-12 sm:mt-[70px] pt-[100px] sm:pt-[130px]"
-    >
+    <section id="home" className="mt-12 sm:mt-[70px] pt-[100px] sm:pt-[130px]">
       <div className="container flex flex-wrap justify-center lg:flex lg:items-center lg:justify-between">
         <div className="max-w-[500px] text-center lg:text-start">
           <div className="flex ">
@@ -57,7 +54,7 @@ function Hero() {
             JavaScript, React Js, Next Js to deliver customer a great product.
             Knowing how to work on Github with a team and being responsible for
             every duties. Furthermore, although I'm self-employed for now, I am
-            going to set up my own company with many employees. 
+            going to set up my own company with many employees.
           </p>
           <a
             href="tel:+998970130322"
