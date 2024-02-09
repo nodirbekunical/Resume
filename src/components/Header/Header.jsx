@@ -6,11 +6,11 @@ import { GiSkills } from "react-icons/gi";
 import { MdWorkOutline } from "react-icons/md";
 import { TbBrandTelegram } from "react-icons/tb";
 import Modal from "../Modal/Modal";
+import { useContext } from "react";
+import { Context } from "../../Context/ModalContext";
 
 // ------> Pdf
 import Resume from "../../Assets/pdf/resume.pdf";
-import { useContext } from "react";
-import { Context } from "../../Context/ModalContext";
 
 import Me from "../../Assets/Images/me.png";
 

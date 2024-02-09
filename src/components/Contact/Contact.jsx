@@ -56,7 +56,7 @@ function Contact() {
             <div className="mb-4">
               <label
                 className="block text-gray-700 text-sm font-bold mb-2"
-                for="username"
+                htmlFor="username"
               >
                 Full name
               </label>
@@ -73,7 +73,7 @@ function Contact() {
             <div className="mb-6 relative">
               <label
                 className="block text-gray-700 text-sm font-bold mb-2"
-                for="text"
+                htmlFor="text"
               >
                 Phone number
               </label>
@@ -87,7 +87,7 @@ function Contact() {
                 placeholder="97 000 00 00"
                 maxLength={9}
               />
-              <span className="absolute z-50 left-2 top-[35px]">+998</span>
+              <span className="absolute z-20 left-2 top-[34.5px]">+998</span>
             </div>
             <div className="flex justify-center">
               <button

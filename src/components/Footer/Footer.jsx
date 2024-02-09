@@ -53,7 +53,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://discord.gg/4eeurUVvTy"
+                    href="/"
                     className="hover:underline"
                   >
                     Edu Tizim (for school)

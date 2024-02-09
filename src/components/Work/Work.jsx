@@ -12,24 +12,30 @@ import "swiper/css/navigation";
 
 import "./work.css";
 
-// ------> Carausel data
+// ------> data
 const data = [
   {
+    id: 0,
     title: "Coming soon",
   },
   {
+    id: 1,
     title: "Coming soon",
   },
   {
+    id: 2,
     title: "Coming soon",
   },
   {
+    id: 3,
     title: "Coming soon",
   },
   {
+    id: 4,
     title: "Coming soon",
   },
   {
+    id: 5,
     title: "Coming soon",
   },
 ];
