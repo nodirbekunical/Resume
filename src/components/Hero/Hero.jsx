@@ -51,10 +51,10 @@ function Hero() {
           </strong>
           <p className="text-gray-300 text-base">
             Front End Developer with more than a year of experience working with
-            JavaScript, React Js, Next Js to deliver customer a great product.
-            Knowing how to work on Github with a team and being responsible for
-            every duties. Furthermore, although I'm self-employed for now, I am
-            going to set up my own company with many employees.
+            JavaScript, React Js, Next Js to deliver customer a great product. I
+            know how to work on Github with a team and being responsible for
+            every duties. Furthermore, I'm looking forwart to setting up my own
+            company with many employees.
           </p>
           <a
             href="tel:+998970130322"

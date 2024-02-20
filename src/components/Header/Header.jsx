@@ -69,7 +69,7 @@ function Header() {
               </li>
               <li className="nav_item text-sm px-2 py-1 group">
                 <a
-                  href="#contactme"
+                  href="#contact"
                   className="nav_link text-white group-hover:text-[#64ffda] duration-150"
                 >
                   Contactme

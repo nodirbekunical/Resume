@@ -53,7 +53,7 @@ function Work() {
           <span className="inline-block w-14 sm:w-40 h-[1px] bg-[rgba(100,255,218,0.1)] rounded-full ml-5"></span>
         </h2>
         <p className="text-gray-300 text-center max-w-[600px] w-full mx-auto mt-8 sm:mt-12">
-          Here's a list of some projects which have done. I gained a lot of
+          Here's a list of some projects I have done. I gained a lot of
           experience while doing these projects.
         </p>
         <Swiper

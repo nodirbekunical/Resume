@@ -4,6 +4,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FiFacebook } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
+import { FiGitlab } from "react-icons/fi";
 
 // ------> Images
 import Me from "../../Assets/Images/me.png";
@@ -80,8 +81,8 @@ function Footer() {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-between sm:flex-row-reverse">
+        {/* <hr className=" border-gray-200 sm:mx-auto dark:border-gray-700 " /> */}
+        <div className="sm:flex sm:items-center sm:justify-between sm:flex-row-reverse mt-10 md:mt-6">
           <ul className="flex items-center space-x-4 ">
             <li>
               <a
@@ -123,7 +124,16 @@ function Footer() {
               >
                 <FaGithub className="text-white w-7 h-7" rel="noreferrer" />
               </a>
+            </li><li>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://gitlab.com/kholiqulov_nodirbek"
+              >
+                <FiGitlab className="text-white w-7 h-7" rel="noreferrer" />
+              </a>
             </li>
+
           </ul>
           <span className="inline-block text-sm text-gray-500 dark:text-gray-400 my-5">
             © 2023 . All Rights Reserved.
