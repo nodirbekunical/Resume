@@ -2,7 +2,7 @@ import React from "react";
 import { BsTelephoneOutbound } from "react-icons/bs";
 
 // ------> Images
-import Me from "../../Assets/Images/nodir.png";
+import Me from "../../Assets/Images/dev.png";
 
 // ------> Css
 import "./hero.css";
