@@ -43,8 +43,8 @@ function Contact() {
         </h2>
         <div className="mt-8 sm:mt-12">
           <p className="text-gray-300 text-base text-center max-w-[600px] w-full mx-auto">
-            You will be able to contact with me after you fill up this form with
-            details given below and it's the only way you can receive quick
+            You will be able to contact with me after filling up this form with
+            details given below and it's the best way you can receive quick
             response!
           </p>
         </div>
