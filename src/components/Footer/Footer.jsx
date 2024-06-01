@@ -136,7 +136,7 @@ function Footer() {
 
           </ul>
           <span className="inline-block text-sm text-gray-500 dark:text-gray-400 my-5">
-            © 2023 . All Rights Reserved.
+            © 2021 . All Rights Reserved.
           </span>
         </div>
       </div>
