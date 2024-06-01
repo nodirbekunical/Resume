@@ -87,29 +87,41 @@ function Header() {
               </span>
             </a>
           </div>
-          <button
-            className="flex flex-col justify-between w-7 h-5 sm:hidden"
-            onClick={() => {
-              setShowModal(true);
-              setShow(true);
-            }}
-          >
-            <span
-              className={`${
-                showModal ? "-rotate-45 translate-y-[8.8px]" : ""
-              } inline-block w-full h-[2px] border border-white duration-300`}
-            ></span>
-            <span
-              className={`${
-                showModal ? "hidden" : ""
-              } inline-block w-[60%] h-[2px] border border-white`}
-            ></span>
-            <span
-              className={`${
-                showModal ? "rotate-45 -translate-y-[8.8px]" : ""
-              } inline-block w-full h-[2px] border border-white duration-300`}
-            ></span>
-          </button>
+          <div className="flex items-center space-x-10">
+            <a
+              href={Resume}
+              download="Nodirbek's resume.pdf"
+              className="flex md:hidden items-center text-sm ml-5 border border-[#64ffda] text-[#64ffda] rounded-[6px] hover:bg-[rgba(100,255,218,0.1)] py-2 px-3 duration-200"
+            >
+              Resume
+              <span className="inline-block ml-2">
+                <TbDownload />
+              </span>
+            </a>
+            <button
+              className="flex flex-col justify-between w-7 h-5 sm:hidden"
+              onClick={() => {
+                setShowModal(true);
+                setShow(true);
+              }}
+            >
+              <span
+                className={`${
+                  showModal ? "-rotate-45 translate-y-[8.8px]" : ""
+                } inline-block w-full h-[2px] border border-white duration-300`}
+              ></span>
+              <span
+                className={`${
+                  showModal ? "hidden" : ""
+                } inline-block w-[60%] h-[2px] border border-white`}
+              ></span>
+              <span
+                className={`${
+                  showModal ? "rotate-45 -translate-y-[8.8px]" : ""
+                } inline-block w-full h-[2px] border border-white duration-300`}
+              ></span>
+            </button>
+          </div>
         </nav>
       </div>
 
